@@ -1,0 +1,1 @@
+DELETE FROM utenti WHERE id IN (4,5,6);

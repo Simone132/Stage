@@ -43,6 +43,3 @@ function inviaOrdineAlServer(totale) {
     // Dopo aver ricevuto la conferma dal server, puoi mostrare un messaggio all'utente
     alert(`Grazie per il tuo acquisto! Totale: ${totale} euro.`);
 }
-
-
-

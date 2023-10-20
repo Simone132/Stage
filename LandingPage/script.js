@@ -72,3 +72,11 @@ function game(playerChoice) {
 document.getElementById('rock').addEventListener('click', () => game('Sasso'));
 document.getElementById('paper').addEventListener('click', () => game('Carta'));
 document.getElementById('scissors').addEventListener('click', () => game('Forbice'));
+
+
+
+
+
+
+
+

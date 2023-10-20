@@ -1,4 +1,5 @@
 const emojis=["🎰","🎰","🏇","🏇","🤖","🤖","👻","👻","😈","😈","👽","👽","🤩","🤩","🙃","🙃" ];
+// console.log(emojis.length);
 var shuf_emojis = emojis.sort(()=>(Math.random()> .5) ? 2 : -1);
 for(var i=0; i<emojis.length; i++) {
     let box =document.createElement('div')
@@ -6,6 +7,7 @@ for(var i=0; i<emojis.length; i++) {
     box.innerHTML = shuf_emojis[i]
 
     box.onclick = function(){
+
         this.classList.add('boxOpen');
         setTimeout(function(){
             if(document.querySelectorAll('.boxOpen').length > 1){
